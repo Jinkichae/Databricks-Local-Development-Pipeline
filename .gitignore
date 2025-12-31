@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 가상환경
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Spark & Hadoop
+spark-warehouse/
+metastore_db/
+derby.log
+*.log
+
+# Delta Lake
+_delta_log/
+*.parquet
+*.snappy
+*.crc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 데이터
+*.csv
+*.xlsx
+data/
+datasets/
+
+# Hadoop
+hadoop/
+winutils.exe
